@@ -7,9 +7,6 @@ const descEl = document.querySelector('.description');
 const detailsEl = document.querySelector('.details');
 const forecastContainer = document.querySelector('.weather-forecast');
 const iconEl = document.querySelector('.weather-icon img');
-const popup = document.getElementById('popup');
-const popupInfo = document.getElementById('popup-info');
-const closePopup = document.querySelector('.popup .close');
 
 let forecastData = [];
 const API_KEY = 'VVYYJCBZJQ2ZCNYWBYR6NAJZ6'; 
